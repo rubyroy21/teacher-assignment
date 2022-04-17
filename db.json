@@ -1,13 +1,6 @@
 {
   "teacher": [
     {
-      "name": "Ruby Roy",
-      "subject": "Math",
-      "classes": 1,
-      "age": 22,
-      "id": 1
-    },
-    {
       "name": "Suhani Roy",
       "subject": "English",
       "classes": 4,
@@ -22,18 +15,25 @@
       "id": 3
     },
     {
-      "name": "Pooja",
-      "classes": "7",
-      "subject": "Economics",
+      "name": "Chipkali",
+      "classes": "3",
+      "subject": "Maths",
       "age": "23",
       "id": 4
     },
     {
-      "name": "Inayat",
-      "classes": "9",
-      "subject": "Bengali",
-      "age": "25",
+      "name": "Tejaswi",
+      "classes": "7",
+      "subject": "Economics",
+      "age": "24",
       "id": 5
+    },
+    {
+      "name": "Mamta",
+      "classes": "9",
+      "subject": "Political Science",
+      "age": "40",
+      "id": 6
     }
   ]
 }

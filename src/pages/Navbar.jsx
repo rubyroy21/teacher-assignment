@@ -10,7 +10,6 @@ export const Navbar = ()=>{
                   <div className="right">
                         <Link className="Link" to="/">Home</Link>
                         <Link className="Link" to="/addData">Add Data</Link>
-                        <Link className="Link" to="/admin">Admin</Link>
                   </div>
            </div>
 }

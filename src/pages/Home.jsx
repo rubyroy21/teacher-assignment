@@ -15,6 +15,7 @@ import {Navbar} from './Navbar'
 import axios from 'axios';
 import {useNavigate} from "react-router-dom"
 
+
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
     [`&.${tableCellClasses.head}`]: {
       backgroundColor: theme.palette.common.black,
@@ -44,10 +45,7 @@ export const Home = () => {
 
     const [value, setValue] = useState("")
 
-    
-
     const [sortValue, setSortValue] = useState("")
-
 
     const sortOptions = ["name", "classes", "subject", "age"]
 
@@ -61,17 +59,14 @@ export const Home = () => {
     }, [])
 
     const loadTeacherData = async () => {
-        return await axios.get(`http://localhost:5000/teacher`)
-        .then((res) => {
-            setData(res.data)
-        })
+        return await axios.get("http://localhost:5000/teacher")
+        .then((res) => setData(res.data))
         .catch((err) => console.log(err))
     }
 
     const handleDelete = (id) => {
         if(window.confirm("Are you sure wanted to delete the date?")){
             dispatch(deleteTeacher(id))
-            loadTeacherData()
         }
     }
 
@@ -109,8 +104,6 @@ export const Home = () => {
         })
         .catch((err) => console.log(err))
     }
-
-    
 
   return (
     <div>
@@ -164,9 +157,6 @@ export const Home = () => {
         </TableBody>
       </Table>
     </TableContainer>
-    <br />
-  
-    
 
     <div style={{float: "left", marginLeft: "5px"}}>
             <h3>Sort by:</h3>
