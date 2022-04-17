@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(201, 200, 243);
+}
+
+#btnGrp{
+    min-width: 150px;
+}
+
+#btn{
+    background-color: black;
+    width: 190px;
+    margin-left: 1em;
+}
+
+#btn1{
+    width: 195px;
+    
+}

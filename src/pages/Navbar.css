@@ -1,0 +1,39 @@
+.nav{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    padding-left: 50px;
+    background-color: #050302c7;
+}
+.nav .left{
+    /* border: 1px solid; */
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.nav .right{
+    /* border: 1px solid; */
+    background-color: rgba(255, 255, 255, 0.19);
+    width: 600px;
+    border-radius: 50px 0px 0px 50px ;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 70px;
+}
+.Link{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    /* border: 1px solid; */
+    width: 100px;
+}

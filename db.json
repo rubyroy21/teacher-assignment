@@ -1,0 +1,39 @@
+{
+  "teacher": [
+    {
+      "name": "Ruby Roy",
+      "subject": "Math",
+      "classes": 1,
+      "age": 22,
+      "id": 1
+    },
+    {
+      "name": "Suhani Roy",
+      "subject": "English",
+      "classes": 4,
+      "age": 18,
+      "id": 2
+    },
+    {
+      "name": "Babita",
+      "classes": "2",
+      "subject": "Geography",
+      "age": "38",
+      "id": 3
+    },
+    {
+      "name": "Pooja",
+      "classes": "7",
+      "subject": "Economics",
+      "age": "23",
+      "id": 4
+    },
+    {
+      "name": "Inayat",
+      "classes": "9",
+      "subject": "Bengali",
+      "age": "25",
+      "id": 5
+    }
+  ]
+}
