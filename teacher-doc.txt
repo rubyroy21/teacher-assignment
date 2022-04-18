@@ -1,0 +1,7 @@
+github link - https://github.com/rubyroy21/teacher-assignment.git
+deploy link - https://teacher-assignment.vercel.app/
+drive link - https://drive.google.com/drive/folders/1EQNb-kHNMNv8YEVLA5UKbaMUiKcdLhTe?usp=sharing
+
+
+step 1 - do npm start in one terminal
+step 2 - do npm run server in another terminal
