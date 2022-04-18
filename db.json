@@ -1,14 +1,7 @@
 {
   "teacher": [
     {
-      "name": "Suhani Roy",
-      "subject": "English",
-      "classes": 4,
-      "age": 18,
-      "id": 2
-    },
-    {
-      "name": "Babita",
+      "name": "Babita Cheddha",
       "classes": "2",
       "subject": "Geography",
       "age": "38",
